@@ -41,4 +41,19 @@ class Model {
         self::init(); // تأكد من وجود الاتصال
     }
 
+    public static function create(array $data) {
+        self::init();
+        $columns = implode(", ", array_keys($data));
+        $placeholders = ":" . implode(", :", array_keys($data));
+        $stmt = self::$db->prepare("INSERT INTO " . static::$table . " ($columns) VALUES ($placeholders)");
+        $stmt->execute($data);
+        return self::$db->lastInsertId();
+    }
+
+    public static function where($column, $value) {
+        self::init();
+        $stmt = self::$db->prepare("SELECT * FROM " . static::$table . " WHERE $column = :value LIMIT 1");
+        $stmt->execute(['value' => $value]);
+        return $stmt->fetch(\PDO::FETCH_ASSOC);
+    }
 }

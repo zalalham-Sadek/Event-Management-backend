@@ -12,6 +12,10 @@ class UserController extends Controller {
         $this->view('user_list',$users);
     }
 
+    public function create(){
+        
+    }
+
     public function edit($id) {
         header('Content-Type: application/json');
         $user = User::find($id);

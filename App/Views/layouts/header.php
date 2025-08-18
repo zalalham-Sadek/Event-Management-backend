@@ -4,6 +4,7 @@
     <nav class="space-x-6">
       <a href="/" class="hover:text-yellow-400 transition">Home</a>
       <a href="/users" class="hover:text-yellow-400 transition">Users</a>
+      <a href="/logout" class="hover:text-yellow-400 transition">logout</a>
     </nav>
   </div>
 </header>
