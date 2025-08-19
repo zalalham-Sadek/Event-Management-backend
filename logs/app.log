@@ -1,0 +1,132 @@
+[2025-08-18 21:33:55] Connected to database successfully!
+[2025-08-18 21:33:55] Connected to database successfully!
+[2025-08-18 21:36:33] Connected to database successfully!
+[2025-08-18 21:36:47] Connected to database successfully!
+[2025-08-18 21:37:26] Connected to database successfully!
+[2025-08-18 21:37:26] Fetch all USERS data successfully!
+[2025-08-18 21:39:22] Connected to database successfully!
+[2025-08-18 21:39:22] Fetch all USERS data successfully!
+[2025-08-18 21:57:11][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-18 21:57:11][INFO] Fetch all USERS data successfully!
+[2025-08-18 21:57:54][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-18 21:57:54][INFO] Fetch all USERS data successfully!
+[2025-08-18 21:58:13][WARNING] Failed login attempt for email: zalalhamsadek@gmail.com
+[2025-08-18 21:58:51][WARNING] Failed login attempt for email: zalalhaccmsadek@gmail.com
+[2025-08-18 22:00:47][ERROR] Registration failed: Passwords do not match for email sdfg@a.ddd
+[2025-08-18 22:01:31][INFO] insert data to USERS  successfully!
+[2025-08-18 22:01:31][INFO] insert data to USER_ROLES  successfully!
+[2025-08-18 22:01:31][INFO] User registered successfully: sdfg@a.ddd with ID 4
+[2025-08-18 22:01:31][INFO] Fetch all USERS data successfully!
+[2025-08-19 17:36:18][INFO] Fetch all USERS data successfully!
+[2025-08-19 18:43:31][INFO] Fetch all USERS data successfully!
+[2025-08-19 18:43:53][INFO] Fetch all USERS data successfully!
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:34][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:34][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:34][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:39:18][ERROR] Registration failed: Email zalalhamsadek@gmail.com already exists
+[2025-08-19 19:40:07][INFO] insert data to USERS  successfully!
+[2025-08-19 19:40:33][ERROR] Registration failed: Email zalalhamsaaadek@gmail.com already exists
+[2025-08-19 19:40:58][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:41:17][INFO] insert data to USERS  successfully!
+[2025-08-19 19:41:17][INFO] insert data to USER_ROLES  successfully!
+[2025-08-19 19:41:47][INFO] User logged in successfully. User ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-19 19:41:47][INFO] Fetch all USERS data successfully!
+[2025-08-19 19:42:15][INFO] Fetch all USERS data successfully!
+[2025-08-19 19:42:44][INFO] Fetch all USERS data successfully!
