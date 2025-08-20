@@ -5,14 +5,13 @@ class HomeController
 {
     public function index()
     {
-        session_start(); 
 
-        if (isset($_SESSION['user_id'])) {
+        if (isset($_SESSION['user'])) {
             header("Location: /users");
             exit;
-        } else {
+        } 
             header("Location: /login");
             exit;
-        }
+        
     }
 }

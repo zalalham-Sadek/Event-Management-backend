@@ -2,7 +2,7 @@
 namespace App\Models;
 
 use App\Core\Model;
-use app\Core\builder\QueryBuilder;
+use App\Core\builder\QueryBuilder;
 use PDO;
 class User extends Model {
     protected static $table = 'users';
@@ -23,8 +23,14 @@ class User extends Model {
         return $stmt->fetchAll(\PDO::FETCH_COLUMN);
     }
 
-    public static function isAdmin(QueryBuilder $query) {
+    public static function isAdmin() {
         self::init();
+        $query = QueryBuilder::table("users")
+            ->select("users.id")
+            ->join("user_roles", "users.id", "=", "user_roles.user_id")
+            ->join("roles", "roles.id", "=", "user_roles.role_id")
+            ->where("roles.name", "=", "admin")
+            ->limit(1);
         $stmt=self::$db->prepare($query->toSql());
         $stmt->execute($query->getBindings());
         $admin = $stmt->fetch(PDO::FETCH_ASSOC);

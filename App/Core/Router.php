@@ -1,6 +1,6 @@
 <?php
 namespace App\Core;
-
+use App\Middleware\AuthMiddleware;
 
 class Router {
     private static array $routes = [
@@ -67,5 +67,14 @@ class Router {
         http_response_code(404);
         echo json_encode(['error' => 'Not Found']);
     }
+
+    public static function auth(callable $callback) {
+    AuthMiddleware::handle();  // ينفذ مرة واحدة
+    $callback();                // ينفذ كل الـ routes داخل المجموعة
+}
+
+// استخدامه
+
+
 }
 

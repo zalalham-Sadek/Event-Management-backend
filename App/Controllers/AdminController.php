@@ -10,6 +10,13 @@ use App\Core\loggers\LoggerFactory;
 
 class AdminController extends Controller {
     public function setupAdmin() {
+        // Prepare & execute
+        $admin = User::isAdmin();
+        if ($admin) {
+            // إذا كان هناك أدمن، إعادة التوجيه إلى الصفحة الرئيسية
+            header("Location: /login");
+            exit;
+        }
         return $this->view('setup/setup');
     }
     public function createAdmin(){

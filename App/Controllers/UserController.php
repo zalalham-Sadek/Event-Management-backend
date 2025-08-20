@@ -9,7 +9,7 @@ class UserController extends Controller {
         // header('Content-Type: application/json');
         $users = User::all();
         
-        $this->view('user_list',$users);
+        $this->view('user_list',compact('users'));
     }
 
     public function create(){

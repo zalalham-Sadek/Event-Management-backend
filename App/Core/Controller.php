@@ -2,19 +2,37 @@
 namespace App\Core;
 
 class Controller {
-    protected $db; // الاتصال بقاعدة البيانات
 
-    // public function __construct() {
-    //     $config = require __DIR__ . '/../../config.php'; // تحميل الإعدادات مرة واحدة
-    //     $this->db = Database::getInstance($config); // اتصال Singleton
-    // }
+    protected function view(string $view, array $data = [], string $layout = 'app') {
+        $logger = \App\Core\loggers\LoggerFactory::create('file');
+        // تحميل محتوى الـ view
+        $viewPath = __DIR__ . "/../Views/{$view}.php";
+        if (!file_exists($viewPath)) {
+            $logger->error("View {$view} not found!");
+            return ['error' => "View {$view} not found!"];
+            // throw new \Exception("View {$view} not found!");
+        }
 
-    protected function view($view, $data = []) {
+        // اجعل المتغيرات متاحة في الـ view
+        // مثال: compact('users', 'posts') => ['users'=>..., 'posts'=>...]
         extract($data);
-        ob_start();
-        require __DIR__ . "/../Views/{$view}.php";
-            $content = ob_get_clean();
-        require __DIR__ . "/../Views/layouts/app.php";
 
+        // تخزين محتوى الـ view
+        ob_start();
+        require $viewPath;
+        $content = ob_get_clean();
+
+        // تحميل الـ layout مع محتوى الـ view
+        $layoutPath = __DIR__ . "/../Views/layouts/{$layout}.php";
+        if (!file_exists($layoutPath)) {
+            throw new \Exception("Layout {$layout} not found!");
+        }
+
+        require $layoutPath;
+    }
+
+    protected function redirect(string $to) {
+        header("Location: {$to}");
+        exit;
     }
 }
