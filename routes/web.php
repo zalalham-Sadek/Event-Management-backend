@@ -20,4 +20,9 @@ Router::auth(function() {
     Router::get('/users/edit/{id}', [UserController::class, 'edit']);
 });
 
+// Router::group('/api', function () {
+//     Router::get('/users', [UserController::class, 'index']);
+//     Router::get('/users/{id}', [UserController::class, 'edit']);
+// });
+
 Router::dispatch($_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI']);

@@ -11,20 +11,40 @@ class Router {
         'DELETE' => [],
     ];
 
+    private static string $groupPrefix = '';   // لتخزين الـ prefix مؤقتاً
+    private static array $groupMiddleware = []; // لتخزين الـ middleware الخاص بالمجموعة
+
     public static function get(string $path, $callback, array $middleware = [])    { 
-        self::$routes['GET'][] = [$path, $callback, $middleware]; 
+        self::$routes['GET'][] = [self::$groupPrefix . $path, $callback, array_merge(self::$groupMiddleware, $middleware)];
     }
     public static function post(string $path, $callback, array $middleware = [])   { 
-        self::$routes['POST'][] = [$path, $callback, $middleware]; 
+        self::$routes['POST'][] = [self::$groupPrefix . $path, $callback, array_merge(self::$groupMiddleware, $middleware)];
     }
     public static function put(string $path, $callback, array $middleware = [])    { 
-        self::$routes['PUT'][] = [$path, $callback, $middleware]; 
+        self::$routes['PUT'][] = [self::$groupPrefix . $path, $callback, array_merge(self::$groupMiddleware, $middleware)];
     }
     public static function patch(string $path, $callback, array $middleware = [])  { 
-        self::$routes['PATCH'][] = [$path, $callback, $middleware]; 
+        self::$routes['PATCH'][] = [self::$groupPrefix . $path, $callback, array_merge(self::$groupMiddleware, $middleware)];
     }
     public static function delete(string $path, $callback, array $middleware = []) { 
-        self::$routes['DELETE'][] = [$path, $callback, $middleware]; 
+        self::$routes['DELETE'][] = [self::$groupPrefix . $path, $callback, array_merge(self::$groupMiddleware, $middleware)];
+    }
+
+    // ✅ group function
+    public static function group(string $prefix, callable $callback, array $middleware = []): void {
+        $oldPrefix = self::$groupPrefix;
+        $oldMiddleware = self::$groupMiddleware;
+
+        // أضف الـ prefix الحالي + الجديد
+        self::$groupPrefix .= $prefix;
+        self::$groupMiddleware = array_merge(self::$groupMiddleware, $middleware);
+
+        // نفذ كل الـ routes داخل المجموعة
+        $callback();
+
+        // رجّع القيم القديمة عشان ما تأثر على باقي الـ routes
+        self::$groupPrefix = $oldPrefix;
+        self::$groupMiddleware = $oldMiddleware;
     }
 
     public static function dispatch(string $method, string $uri): void {
@@ -48,7 +68,7 @@ class Router {
 
                 // ✨ Execute middleware
                 foreach ($middleware as $mw) {
-                    $mw::handle(); // كل middleware عنده static handle
+                    $mw::handle();
                 }
 
                 // ✨ Execute controller
@@ -67,14 +87,9 @@ class Router {
         http_response_code(404);
         echo json_encode(['error' => 'Not Found']);
     }
-
+    
     public static function auth(callable $callback) {
     AuthMiddleware::handle();  // ينفذ مرة واحدة
     $callback();                // ينفذ كل الـ routes داخل المجموعة
 }
-
-// استخدامه
-
-
 }
-
