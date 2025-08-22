@@ -1,7 +1,7 @@
 <?php
 namespace App\Core;
 
-class Router {
+class RouterAPI {
     private static array $routes = [
         'GET'    => [],
         'POST'   => [],

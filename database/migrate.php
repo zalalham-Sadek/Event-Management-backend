@@ -21,16 +21,18 @@ $migrationsDir = __DIR__ . '/migrations';
 $files = scandir($migrationsDir);
 $executed = 0;
 
-// تحقق من الوسيط في سطر الأوامر
 $rollback = $argv[1] ?? null;
 
 foreach ($files as $file) {
     if (pathinfo($file, PATHINFO_EXTENSION) === 'php') {
         require_once $migrationsDir . '/' . $file;
-        $className = str_replace('_', '', ucwords(pathinfo($file, PATHINFO_FILENAME), '_'));
-        
-        if (class_exists($className)) {
-            $migration = new $className();
+
+       $filename = pathinfo($file, PATHINFO_FILENAME); // 001_CreateUsersTable
+        $className = preg_replace('/^\d+_/', '', $filename); // يزيل 001_
+        $fullClassName = "App\\Migrations\\$className";
+
+        if (class_exists($fullClassName)) {
+            $migration = new $fullClassName();
 
             if ($rollback === 'rollback') {
                 $migration->down($db);

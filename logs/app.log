@@ -1,0 +1,290 @@
+[2025-08-18 21:33:55] Connected to database successfully!
+[2025-08-18 21:33:55] Connected to database successfully!
+[2025-08-18 21:36:33] Connected to database successfully!
+[2025-08-18 21:36:47] Connected to database successfully!
+[2025-08-18 21:37:26] Connected to database successfully!
+[2025-08-18 21:37:26] Fetch all USERS data successfully!
+[2025-08-18 21:39:22] Connected to database successfully!
+[2025-08-18 21:39:22] Fetch all USERS data successfully!
+[2025-08-18 21:57:11][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-18 21:57:11][INFO] Fetch all USERS data successfully!
+[2025-08-18 21:57:54][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-18 21:57:54][INFO] Fetch all USERS data successfully!
+[2025-08-18 21:58:13][WARNING] Failed login attempt for email: zalalhamsadek@gmail.com
+[2025-08-18 21:58:51][WARNING] Failed login attempt for email: zalalhaccmsadek@gmail.com
+[2025-08-18 22:00:47][ERROR] Registration failed: Passwords do not match for email sdfg@a.ddd
+[2025-08-18 22:01:31][INFO] insert data to USERS  successfully!
+[2025-08-18 22:01:31][INFO] insert data to USER_ROLES  successfully!
+[2025-08-18 22:01:31][INFO] User registered successfully: sdfg@a.ddd with ID 4
+[2025-08-18 22:01:31][INFO] Fetch all USERS data successfully!
+[2025-08-19 17:36:18][INFO] Fetch all USERS data successfully!
+[2025-08-19 18:43:31][INFO] Fetch all USERS data successfully!
+[2025-08-19 18:43:53][INFO] Fetch all USERS data successfully!
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:33][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:34][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:34][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:34][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:35][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:40][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:34:41][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:11][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:35:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:36:12][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:39:18][ERROR] Registration failed: Email zalalhamsadek@gmail.com already exists
+[2025-08-19 19:40:07][INFO] insert data to USERS  successfully!
+[2025-08-19 19:40:33][ERROR] Registration failed: Email zalalhamsaaadek@gmail.com already exists
+[2025-08-19 19:40:58][WARNING] No admin found, redirecting to setup.
+[2025-08-19 19:41:17][INFO] insert data to USERS  successfully!
+[2025-08-19 19:41:17][INFO] insert data to USER_ROLES  successfully!
+[2025-08-19 19:41:47][INFO] User logged in successfully. User ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-19 19:41:47][INFO] Fetch all USERS data successfully!
+[2025-08-19 19:42:15][INFO] Fetch all USERS data successfully!
+[2025-08-19 19:42:44][INFO] Fetch all USERS data successfully!
+[2025-08-20 13:59:45][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-20 13:59:45][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:06:14][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:06:56][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-20 14:21:22][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:21:28][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:25:24][WARNING] Failed login attempt for email: zalalhamsadek@gmail.com
+[2025-08-20 14:25:31][WARNING] Failed login attempt for email: zalalhamsadek@gmail.com
+[2025-08-20 14:25:38][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-20 14:25:38][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:25:50][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:25:55][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:26:51][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:27:04][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-20 14:27:04][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:38:06][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:38:18][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:39:18][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:41:27][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:43:23][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:46:29][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:46:31][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:46:50][INFO] Fetch all USERS data successfully!
+[2025-08-20 14:46:50][ERROR] View userc_list not found!
+[2025-08-20 14:47:32][INFO] Fetch all USERS data successfully!
+[2025-08-20 20:08:32][INFO] Fetch all USERS data successfully!
+[2025-08-20 20:08:52][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-20 20:08:52][INFO] Fetch all USERS data successfully!
+[2025-08-20 20:18:49][INFO] Fetch all USERS data successfully!
+[2025-08-20 20:22:07][INFO] Fetch all USERS data successfully!
+[2025-08-20 20:42:24][INFO] Fetch all USERS data successfully!
+[2025-08-21 18:47:35][INFO] Fetch all USERS data successfully!
+[2025-08-21 19:47:22][INFO] Fetch all USERS data successfully!
+[2025-08-21 19:47:26][INFO] Fetch all USERS data successfully!
+[2025-08-21 19:51:13][INFO] Fetch all USERS data successfully!
+[2025-08-21 19:52:29][INFO] Fetch all USERS data successfully!
+[2025-08-21 19:52:37][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:22:02][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:22:12][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:39:03][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:39:03][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:39:07][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:39:07][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:39:10][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:39:10][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:39:20][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:39:20][WARNING] Login attempt with missing fields. Email: NULL
+[2025-08-22 08:43:53][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:43:53][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:14][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:14][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:16][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:16][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:29][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:29][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:30][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:44:30][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:45:00][INFO] User logged in successfully. User ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 08:45:00][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:45:00][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:45:37][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:45:37][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:50:19][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:50:19][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:51:33][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:51:33][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:53:38][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:53:38][INFO] Fetch all USERS data successfully!
+[2025-08-22 08:56:53][INFO] Fetch all USERS data successfully!
+[2025-08-22 09:54:11][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 09:56:25][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 09:57:57][INFO] Fetch all USERS data successfully!
+[2025-08-22 09:59:00][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:03:05][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:03:10][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:14:01][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:14:38][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:14:38][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:16:38][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:16:48][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:16:48][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:16:48][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:16:48][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:16:49][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:20:23][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:21:00][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:21:00][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:26:14][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:26:26][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:30:28][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:31:28][INFO] Fetch all USERS data successfully!
+[2025-08-22 10:49:52][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:01:52][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:04:58][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:10:08][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:11:14][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:11:40][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:11:40][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:13:57][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:15:34][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:16:01][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 11:16:01][INFO] Fetch all USERS data successfully!
+[2025-08-22 11:20:07][INFO] API Registration attempt with data: {"name":"zalal","email":"zaaaa@gmail.com","password":"***"}
+[2025-08-22 11:20:07][INFO] Creating user with email: zaaaa@gmail.com
+[2025-08-22 11:20:07][INFO] insert data to USERS  successfully!
+[2025-08-22 11:20:07][INFO] User created with ID: 7
+[2025-08-22 11:20:07][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 11:20:07][INFO] User role assigned: user_id=7, role_id=2
+[2025-08-22 11:20:07][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 11:20:07][INFO] API registration successful for user ID: 7, Email: zaaaa@gmail.com
+[2025-08-22 11:20:07][INFO] Fetch all USERS data successfully!
+[2025-08-22 19:34:23][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 19:54:56][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 20:06:02][INFO] API Registration attempt with data: {"name":"aqws","email":"aqws@gmail.com","password":"***","confirm_password":"123456"}
+[2025-08-22 20:06:02][INFO] Creating user with email: aqws@gmail.com
+[2025-08-22 20:06:02][INFO] insert data to USERS  successfully!
+[2025-08-22 20:06:02][INFO] User created with ID: 8
+[2025-08-22 20:06:02][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 20:06:02][INFO] User role assigned: user_id=8, role_id=2
+[2025-08-22 20:06:02][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 20:06:02][INFO] API registration successful for user ID: 8, Email: aqws@gmail.com
+[2025-08-22 20:06:19][INFO] API login successful for user ID: 8, Email: aqws@gmail.com
+[2025-08-22 20:22:32][WARNING] API login failed for email: zalalhamsadek@gmail.com
+[2025-08-22 20:22:53][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 20:24:29][INFO] API login successful for user ID: 8, Email: aqws@gmail.com
+[2025-08-22 20:26:03][INFO] API login successful for user ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-22 20:26:14][INFO] API login successful for user ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-22 20:27:41][INFO] API login successful for user ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-22 21:14:53][INFO] API admin setup attempt with data: {"name":"zalalham","email":"zalalhamsadek@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:14:53][INFO] insert data to USERS  successfully!
+[2025-08-22 21:14:53][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:14:53][INFO] Admin created user: zalalhamsadek@gmail.com with ID 1
+[2025-08-22 21:18:22][INFO] API admin setup attempt with data: {"name":"zalalham","email":"zalalhamsadek@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:18:37][INFO] API admin setup attempt with data: {"name":"zalalham","email":"zal@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:18:37][INFO] insert data to USERS  successfully!
+[2025-08-22 21:18:37][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 21:18:37][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:18:37][INFO] Admin created user: zal@gmail.com with ID 2
+[2025-08-22 21:18:38][INFO] API login successful for user ID: 2, Email: zal@gmail.com
+[2025-08-22 21:28:57][INFO] API admin setup attempt with data: {"name":"zal","email":"zalalhamsadek@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:28:57][INFO] insert data to USERS  successfully!
+[2025-08-22 21:28:57][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 21:28:57][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:28:57][INFO] Admin created user: zalalhamsadek@gmail.com with ID 3
+[2025-08-22 21:28:57][INFO] API login successful for user ID: 3, Email: zalalhamsadek@gmail.com
+[2025-08-22 21:30:20][INFO] API Registration attempt with data: {"name":"zaaaa","email":"zalalham.sadek@gmail.com","password":"***","confirm_password":"123456"}
+[2025-08-22 21:30:20][INFO] Creating user with email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:20][INFO] insert data to USERS  successfully!
+[2025-08-22 21:30:20][INFO] User created with ID: 4
+[2025-08-22 21:30:20][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 21:30:20][INFO] User role assigned: user_id=4, role_id=2
+[2025-08-22 21:30:20][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:30:20][INFO] API registration successful for user ID: 4, Email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:35][WARNING] API login failed for email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:39][WARNING] API login failed for email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:43][INFO] API login successful for user ID: 4, Email: zalalham.sadek@gmail.com
+[2025-08-22 21:32:22][INFO] API login successful for user ID: 4, Email: zalalham.sadek@gmail.com
+[2025-08-22 21:48:46][INFO] API login successful for user ID: 3, Email: zalalhamsadek@gmail.com
