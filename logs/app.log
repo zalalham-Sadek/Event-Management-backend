@@ -241,3 +241,50 @@
 [2025-08-22 11:20:07][INFO] Fetch by idUSERS data successfully!
 [2025-08-22 11:20:07][INFO] API registration successful for user ID: 7, Email: zaaaa@gmail.com
 [2025-08-22 11:20:07][INFO] Fetch all USERS data successfully!
+[2025-08-22 19:34:23][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 19:54:56][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 20:06:02][INFO] API Registration attempt with data: {"name":"aqws","email":"aqws@gmail.com","password":"***","confirm_password":"123456"}
+[2025-08-22 20:06:02][INFO] Creating user with email: aqws@gmail.com
+[2025-08-22 20:06:02][INFO] insert data to USERS  successfully!
+[2025-08-22 20:06:02][INFO] User created with ID: 8
+[2025-08-22 20:06:02][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 20:06:02][INFO] User role assigned: user_id=8, role_id=2
+[2025-08-22 20:06:02][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 20:06:02][INFO] API registration successful for user ID: 8, Email: aqws@gmail.com
+[2025-08-22 20:06:19][INFO] API login successful for user ID: 8, Email: aqws@gmail.com
+[2025-08-22 20:22:32][WARNING] API login failed for email: zalalhamsadek@gmail.com
+[2025-08-22 20:22:53][INFO] API login successful for user ID: 1, Email: zalalhamsadek@gmail.com
+[2025-08-22 20:24:29][INFO] API login successful for user ID: 8, Email: aqws@gmail.com
+[2025-08-22 20:26:03][INFO] API login successful for user ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-22 20:26:14][INFO] API login successful for user ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-22 20:27:41][INFO] API login successful for user ID: 6, Email: zalalham.saadeq@gmail.com
+[2025-08-22 21:14:53][INFO] API admin setup attempt with data: {"name":"zalalham","email":"zalalhamsadek@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:14:53][INFO] insert data to USERS  successfully!
+[2025-08-22 21:14:53][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:14:53][INFO] Admin created user: zalalhamsadek@gmail.com with ID 1
+[2025-08-22 21:18:22][INFO] API admin setup attempt with data: {"name":"zalalham","email":"zalalhamsadek@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:18:37][INFO] API admin setup attempt with data: {"name":"zalalham","email":"zal@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:18:37][INFO] insert data to USERS  successfully!
+[2025-08-22 21:18:37][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 21:18:37][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:18:37][INFO] Admin created user: zal@gmail.com with ID 2
+[2025-08-22 21:18:38][INFO] API login successful for user ID: 2, Email: zal@gmail.com
+[2025-08-22 21:28:57][INFO] API admin setup attempt with data: {"name":"zal","email":"zalalhamsadek@gmail.com","password":"***","confirm_password":"123456","role":"admin"}
+[2025-08-22 21:28:57][INFO] insert data to USERS  successfully!
+[2025-08-22 21:28:57][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 21:28:57][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:28:57][INFO] Admin created user: zalalhamsadek@gmail.com with ID 3
+[2025-08-22 21:28:57][INFO] API login successful for user ID: 3, Email: zalalhamsadek@gmail.com
+[2025-08-22 21:30:20][INFO] API Registration attempt with data: {"name":"zaaaa","email":"zalalham.sadek@gmail.com","password":"***","confirm_password":"123456"}
+[2025-08-22 21:30:20][INFO] Creating user with email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:20][INFO] insert data to USERS  successfully!
+[2025-08-22 21:30:20][INFO] User created with ID: 4
+[2025-08-22 21:30:20][INFO] insert data to USER_ROLES  successfully!
+[2025-08-22 21:30:20][INFO] User role assigned: user_id=4, role_id=2
+[2025-08-22 21:30:20][INFO] Fetch by idUSERS data successfully!
+[2025-08-22 21:30:20][INFO] API registration successful for user ID: 4, Email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:35][WARNING] API login failed for email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:39][WARNING] API login failed for email: zalalham.sadek@gmail.com
+[2025-08-22 21:30:43][INFO] API login successful for user ID: 4, Email: zalalham.sadek@gmail.com
+[2025-08-22 21:32:22][INFO] API login successful for user ID: 4, Email: zalalham.sadek@gmail.com
+[2025-08-22 21:48:46][INFO] API login successful for user ID: 3, Email: zalalhamsadek@gmail.com

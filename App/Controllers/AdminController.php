@@ -63,4 +63,67 @@ class AdminController extends Controller {
         header("Location: /login");
         exit;
     }
+    
+    // API Methods for Admin Operations
+    
+    public function apiSetupAdmin() {
+        $admin = User::isAdmin();
+        if ($admin) {
+            return $this->json(['error' => 'Admin already exists','hasAdmin'=>true], 409);
+        }
+        return $this->json(['message' => 'You can setup admin now','hasAdmin'=>false]);
+    }
+    
+    public function apiCreateAdmin() {
+
+        $data = json_decode(file_get_contents('php://input'), true);
+
+        $logger = LoggerFactory::create('file');
+        
+        // Check if user is admin
+        $logger->info("API admin setup attempt with data: " . json_encode(array_merge($data ?? [], ['password' => '***'])));
+
+        if (!$data || !isset($data['name']) || !isset($data['email']) || !isset($data['password'])) {
+            $logger->error("API Registration failed: Missing required fields");
+            return $this->json(['error' => 'Name, email and password are required'], 400);
+        }
+        
+        $name = $data['name'];
+        $email = $data['email'];
+        $password = $data['password'];
+        $role = $data['role'] ?? 'admin';
+        
+        // Check if email already exists
+        if (User::findByEmail($email)) {
+            return $this->json(['error' => 'Email already exists'], 409);
+        }
+        
+        try {
+            $userId = User::create([
+                'name' => $name,
+                'email' => $email,
+                'password' => password_hash($password, PASSWORD_BCRYPT)
+            ]);
+            
+            $role = Role::findByName($role);
+            if ($role) {
+                UserRole::create([
+                    'user_id' => $userId,
+                    'role_id' => $role['id']
+                ]);
+            }
+            
+            $user = User::find($userId);
+            $logger->info("Admin created user: $email with ID $userId");
+            
+            return $this->json([
+                'message' => 'User created successfully',
+                'user' => $user
+            ], 201);
+        } catch (\Exception $e) {
+            $logger->error("Admin failed to create user: " . $e->getMessage());
+            return $this->json(['error' => 'Failed to create user'], 500);
+        }
+    }
+     
 }

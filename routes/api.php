@@ -2,6 +2,7 @@
 use App\Core\RouterAPI;
 use App\Controllers\UserController;
 use App\Controllers\AuthController;
+use App\Controllers\AdminController;
 use App\Middleware\CorsMiddleware;
 
 // User API endpoints
@@ -11,6 +12,8 @@ RouterAPI::post('/api/users', [UserController::class, 'createUser']);
 RouterAPI::put('/api/users/{id}', [UserController::class, 'updateUser']);
 RouterAPI::delete('/api/users/{id}', [UserController::class, 'deleteUser']);
 
+RouterAPI::get('/api/setup-admin', [AdminController::class, 'apiSetupAdmin']);
+RouterAPI::post('/api/setup-admin', [AdminController::class, 'apiCreateAdmin']);
 // Auth API endpoints
 RouterAPI::post('/api/login', [AuthController::class, 'apiLogin']);
 RouterAPI::post('/api/register', [AuthController::class, 'apiRegister']);

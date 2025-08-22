@@ -276,4 +276,101 @@ class AuthController extends Controller {
         
         return $this->json(['message' => 'Logged out successfully']);
     }
+    
+    public function apiUpdateProfile() {
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
+        
+        if (!isset($_SESSION['user'])) {
+            return $this->json(['error' => 'Not authenticated'], 401);
+        }
+        
+        $data = json_decode(file_get_contents('php://input'), true);
+        $logger = LoggerFactory::create('file');
+        
+        if (!$data) {
+            return $this->json(['error' => 'Invalid JSON data'], 400);
+        }
+        
+        $userId = $_SESSION['user']['id'];
+        $updateData = [];
+        
+        if (isset($data['name'])) {
+            $updateData['name'] = $data['name'];
+        }
+        
+        if (isset($data['email'])) {
+            // Check if new email already exists for another user
+            $existingUser = User::findByEmail($data['email']);
+            if ($existingUser && $existingUser['id'] != $userId) {
+                return $this->json(['error' => 'Email already in use'], 409);
+            }
+            $updateData['email'] = $data['email'];
+        }
+        
+        if (empty($updateData)) {
+            return $this->json(['error' => 'No fields to update'], 400);
+        }
+        
+        try {
+            User::update($userId, $updateData);
+            $updatedUser = User::find($userId);
+            
+            // Update session
+            $_SESSION['user']['name'] = $updatedUser['name'];
+            
+            $logger->info("User updated profile: $userId");
+            
+            return $this->json([
+                'message' => 'Profile updated successfully',
+                'user' => [
+                    'id' => $updatedUser['id'],
+                    'name' => $updatedUser['name'],
+                    'email' => $updatedUser['email'],
+                    'roles' => User::getRoles($updatedUser['id'])
+                ]
+            ]);
+        } catch (\Exception $e) {
+            $logger->error("Failed to update profile for user $userId: " . $e->getMessage());
+            return $this->json(['error' => 'Failed to update profile'], 500);
+        }
+    }
+    
+    public function apiUpdatePassword() {
+        if (session_status() === PHP_SESSION_NONE) {
+            session_start();
+        }
+        
+        if (!isset($_SESSION['user'])) {
+            return $this->json(['error' => 'Not authenticated'], 401);
+        }
+        
+        $data = json_decode(file_get_contents('php://input'), true);
+        $logger = LoggerFactory::create('file');
+        
+        if (!$data || !isset($data['current_password']) || !isset($data['new_password'])) {
+            return $this->json(['error' => 'Current password and new password are required'], 400);
+        }
+        
+        $userId = $_SESSION['user']['id'];
+        $user = User::find($userId);
+        
+        if (!password_verify($data['current_password'], $user['password'])) {
+            return $this->json(['error' => 'Current password is incorrect'], 401);
+        }
+        
+        try {
+            User::update($userId, [
+                'password' => password_hash($data['new_password'], PASSWORD_BCRYPT)
+            ]);
+            
+            $logger->info("User changed password: $userId");
+            
+            return $this->json(['message' => 'Password updated successfully']);
+        } catch (\Exception $e) {
+            $logger->error("Failed to update password for user $userId: " . $e->getMessage());
+            return $this->json(['error' => 'Failed to update password'], 500);
+        }
+    }
 }
