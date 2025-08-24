@@ -8,7 +8,7 @@ use App\Middleware\CorsMiddleware;
 // User API endpoints
 RouterAPI::get('/api/users', [UserController::class, 'getAllUsers']);
 RouterAPI::get('/api/users/{id}', [UserController::class, 'getUser']);
-RouterAPI::post('/api/users', [UserController::class, 'createUser']);
+RouterAPI::post('/api/users/create', [UserController::class, 'createUser']);
 RouterAPI::put('/api/users/{id}', [UserController::class, 'updateUser']);
 RouterAPI::delete('/api/users/{id}', [UserController::class, 'deleteUser']);
 
