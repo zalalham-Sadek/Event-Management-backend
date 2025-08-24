@@ -59,4 +59,18 @@ class Model {
         $stmt->execute(['value' => $value]);
         return $stmt->fetch(\PDO::FETCH_ASSOC);
     }
+
+    public static function delete($id) {
+        self::init();
+        $stmt = self::$db->prepare("DELETE FROM " . static::$table . " WHERE id = :id");
+        $result = $stmt->execute(['id' => $id]);
+
+        if ($result) {
+            self::$logger->log('Deleted ' . strtoupper(static::$table) . ' with ID ' . $id . ' successfully!');
+        } else {
+            self::$logger->log('Failed to delete ' . strtoupper(static::$table) . ' with ID ' . $id);
+        }
+
+        return $result;
+    }
 }

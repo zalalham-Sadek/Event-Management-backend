@@ -99,17 +99,17 @@ class UserController extends Controller {
     //     }
     // }
 
-    // public function deleteUser($id) {
-    //     $user = User::find($id);
-    //     if (!$user) {
-    //         return $this->json(['error' => 'User not found'], 404);
-    //     }
+    public function deleteUser($id) {
+        $user = User::find($id);
+        if (!$user) {
+            return $this->json(['error' => 'User not found'], 404);
+        }
 
-    //     try {
-    //         User::delete($id);
-    //         return $this->json(['message' => 'User deleted successfully']);
-    //     } catch (\Exception $e) {
-    //         return $this->json(['error' => 'Failed to delete user: ' . $e->getMessage()], 500);
-    //     }
-    // }
+        try {
+            User::delete($id);
+            return $this->json(['message' => 'User deleted successfully']);
+        } catch (\Exception $e) {
+            return $this->json(['error' => 'Failed to delete user: ' . $e->getMessage()], 500);
+        }
+    }
 }
