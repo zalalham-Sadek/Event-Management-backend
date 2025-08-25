@@ -101,4 +101,14 @@ function deleteEvent($id) {
     }
 }
 
+public function eventDetails($id) {
+    $event = Event::find($id);
+    if (!$event) {
+        return $this->json(['error' => 'Event not found'], 404);
+    }
+
+    $speakers = EventSpeaker::findSpeakersByEventId($id);
+    return $this->json(['event' => $event, 'speakers' => $speakers]);
+
+}
 }

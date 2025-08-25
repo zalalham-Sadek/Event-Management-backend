@@ -27,7 +27,7 @@ RouterAPI::get('/api/me', [AuthController::class, 'apiMe']);
 RouterAPI::get('/api/events', [App\Controllers\EventController::class, 'getAllEvents']);
 RouterAPI::post('/api/events/create', [App\Controllers\EventController::class, 'createEvent']);
 RouterAPI::delete('/api/events/{id}', [App\Controllers\EventController::class, 'deleteEvent']);
-
+RouterAPI::get('/api/eventDetials/{id}', [App\Controllers\EventController::class, 'eventDetails']);
 // Speaker API endpoints
 RouterAPI::get('/api/speakers', [SpeakerController::class, 'getAllSpeakers']);
 RouterAPI::post('/api/speakers/create', [SpeakerController::class, 'createSpeaker']);

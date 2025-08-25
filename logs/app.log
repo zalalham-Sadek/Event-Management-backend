@@ -502,3 +502,121 @@
 [2025-08-24 23:39:39][INFO] Fetch all SPEAKERS data successfully!
 [2025-08-24 23:39:46][INFO] Fetch all SPEAKERS data successfully!
 [2025-08-24 23:39:47][INFO] Fetch all USERS data successfully!
+[2025-08-25 13:59:37][INFO] API login successful for user ID: 3, Email: zalalhamsadek@gmail.com
+[2025-08-25 13:59:37][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 13:59:37][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 13:59:43][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 13:59:50][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:02:17][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:03:23][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:03:29][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:03:36][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:03:39][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:08:43][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:08:53][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:08:54][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:09:33][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:09:35][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:09:55][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:10:55][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:11:16][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:11:20][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:11:51][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:11:59][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:12:15][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:14:24][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:14:28][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:14:30][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:14:38][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:16:23][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:18:37][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:18:42][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:20:40][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:20:47][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:21:33][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:21:51][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:21:58][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:22:06][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:22:10][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:22:42][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:22:44][INFO] Fetch all EVENTS data successfully!
+
+[2025-08-25 14:22:46][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:22:48][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:22:58][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:23:01][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:23:32][INFO] Fetch all EVENTS data successfully!
+
+[2025-08-25 14:27:22][WARNING] API login failed for email: 
+[2025-08-25 14:30:07][WARNING] API login failed for email: 
+[2025-08-25 14:33:24][INFO] API login successful for user ID: 3, Email: zalalhamsadek@gmail.com
+[2025-08-25 14:33:25][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:33:25][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:34:38][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:34:40][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:34:46][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:34:46][INFO] Deleted EVENTS with ID 1 successfully!
+[2025-08-25 14:34:52][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:34:52][INFO] Deleted EVENTS with ID 4 successfully!
+[2025-08-25 14:34:55][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:35:00][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:00][INFO] Deleted EVENTS with ID 5 successfully!
+[2025-08-25 14:35:03][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:03][INFO] Deleted EVENTS with ID 3 successfully!
+[2025-08-25 14:35:06][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:06][INFO] Deleted EVENTS with ID 7 successfully!
+[2025-08-25 14:35:10][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:35:13][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:13][INFO] Deleted EVENTS with ID 2 successfully!
+[2025-08-25 14:35:17][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:17][INFO] Deleted EVENTS with ID 9 successfully!
+[2025-08-25 14:35:20][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:20][INFO] Deleted EVENTS with ID 6 successfully!
+[2025-08-25 14:35:22][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:35:25][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:25][INFO] Deleted EVENTS with ID 8 successfully!
+[2025-08-25 14:35:28][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:28][INFO] Deleted EVENTS with ID 12 successfully!
+[2025-08-25 14:35:31][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:31][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:35][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:35:38][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:35:38][INFO] Deleted EVENTS with ID 10 successfully!
+[2025-08-25 14:35:41][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:35:43][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:35:47][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:36:27][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:36:29][INFO] Fetch all USERS data successfully!
+[2025-08-25 14:36:38][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:36:41][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:37:57][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:39:15][INFO] insert data to SPEAKERS  successfully!
+[2025-08-25 14:39:15][INFO] Fetch by idSPEAKERS data successfully!
+[2025-08-25 14:39:56][INFO] insert data to SPEAKERS  successfully!
+[2025-08-25 14:39:56][INFO] Fetch by idSPEAKERS data successfully!
+[2025-08-25 14:39:58][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:40:00][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:40:56][INFO] insert data to EVENTS  successfully!
+[2025-08-25 14:40:56][INFO] insert data to EVENT_SPEAKER  successfully!
+[2025-08-25 14:40:56][INFO] insert data to EVENT_SPEAKER  successfully!
+[2025-08-25 14:40:56][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:40:59][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:41:04][INFO] Fetch by idEVENTS data successfully!
+[2025-08-25 14:41:32][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:41:33][INFO] Fetch all USERS data successfully!
+[2025-08-25 14:41:36][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:41:36][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:44:38][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:47:21][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:47:21][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:47:37][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:47:44][INFO] Fetch all USERS data successfully!
+[2025-08-25 14:48:37][INFO] API login successful for user ID: 4, Email: zalalham.sadek@gmail.com
+[2025-08-25 14:48:39][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:48:39][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:48:46][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:48:49][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:49:01][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:49:01][INFO] Fetch all SPEAKERS data successfully!
+[2025-08-25 14:49:02][INFO] Fetch all EVENTS data successfully!
+[2025-08-25 14:49:03][INFO] Fetch all SPEAKERS data successfully!
